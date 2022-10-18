@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--//Viet ham truyen vao mot mang ki tu, va mot ky tu bat ki, kiem tra xem ki tu bat ki do co trong mang hay khong?-->
+<script>
+    let a = [1, 5, "Ngat", 6, 7]
+    let b = prompt("nhap ky tu bat ki")
+    function haha(a) {
+        for (let i = 0; i < a.length; i++) {
+            if (b == a[i]) {
+                return true;
+            }
+        }
+        return false;
+    }
+    alert(haha(a))
+</script>
+</body>
+</html>
